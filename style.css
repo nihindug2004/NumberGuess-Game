@@ -1,0 +1,35 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+
+   
+}
+
+fieldset{
+    background-color: #d1d8e0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0);
+    margin: 20px auto;
+    width: 30%;
+    border-top: 50px;
+}
+
+
+input{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    width: 70%;
+
+}
+
+
+h1{
+    text-align: center;
+}

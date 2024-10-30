@@ -3,20 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guess Bro...!</title>
+    <title>Number Guess</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <center>
-    <h1 id="heading">Guess The Number ?</h1>
-
-    <input type="text" id="text">
-
-    <input type="button" id="btn_submit_onAction" value="Guess ?">
-
-    
-
-    </center>
+    <fieldset>
+    <h1>Number Guessing Game...!!</h1>
+    <input type="text" id="num">
+    <input type="button" id="button" value="Guess" onclick="guessFunction()">
+    <P id="output"></P><br>
+    (1-10 only)
+</fieldset>
 
     <script src="app.js"></script>
+</form>
 </body>
 </html>
